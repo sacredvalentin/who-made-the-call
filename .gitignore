@@ -1,0 +1,8 @@
+.DS_Store
+# Private working material: research reports, drafts, survey data. Never published.
+research/
+
+# The project's own instructions and journal, kept beside the repository and
+# not published. Root-anchored, so examples/decisions.md still publishes.
+/CLAUDE.md
+/decisions.md

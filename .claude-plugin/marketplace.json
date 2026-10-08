@@ -1,0 +1,15 @@
+{
+  "name": "novitsky",
+  "owner": {
+    "name": "Valentin Novitsky",
+    "url": "https://www.valentinnovitsky.com"
+  },
+  "description": "Tools by Valentin Novitsky for working with AI agents.",
+  "plugins": [
+    {
+      "name": "who-made-the-call",
+      "source": "./",
+      "description": "A decision ledger for work done with AI agents. It records every fork and who decided it, and it must not write a reason the person did not give."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "who-made-the-call",
+  "displayName": "Who made the call",
+  "description": "A decision ledger for work done with AI agents. It records every fork and who decided it, and it must not write a reason the person did not give.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Valentin Novitsky",
+    "url": "https://www.valentinnovitsky.com"
+  },
+  "homepage": "https://www.valentinnovitsky.com/writing/who-made-the-call",
+  "repository": "https://github.com/sacredvalentin/who-made-the-call",
+  "license": "MIT",
+  "keywords": ["decision-log", "journal", "session", "attribution"]
+}
