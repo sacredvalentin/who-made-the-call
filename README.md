@@ -80,6 +80,10 @@ The ledger is written in German, regardless of the conversation's language.
 
 If you run it, tell me what happened in [Discussions](https://github.com/sacredvalentin/who-made-the-call/discussions). If it breaks one of its own rules, open an [issue](https://github.com/sacredvalentin/who-made-the-call/issues).
 
+## Privacy
+
+The plugin sends nothing anywhere. It has no connectors, hooks, scripts or network calls. `/sum` writes the session's decisions to `decisions.md` in your project folder and a summary note to a folder you name, and commits to your local git repository without pushing. An entry can quote or paraphrase what you said in the session. The files stay where they are written until you delete them. In a claude.ai chat, the same text is handed to you as a file in the conversation.
+
 ## History
 
 `CHANGELOG.md` lists the versions since June 2026, with the two rules that had to be repaired.

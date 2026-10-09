@@ -10,5 +10,6 @@
   "homepage": "https://www.valentinnovitsky.com/writing/who-made-the-call",
   "repository": "https://github.com/sacredvalentin/who-made-the-call",
   "license": "MIT",
+  "privacyPolicyUrl": "https://github.com/sacredvalentin/who-made-the-call#privacy",
   "keywords": ["decision-log", "journal", "session", "attribution"]
 }
