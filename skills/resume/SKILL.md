@@ -1,6 +1,6 @@
 ---
 name: resume
-description: Rehydrate context at session start: read recent decisions.md entries and report where we are
+description: "Rehydrate context at session start: read recent decisions.md entries and report where we are"
 allowed-tools: Read, Grep, Glob
 disable-model-invocation: true
 ---
