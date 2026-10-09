@@ -75,7 +75,7 @@ The ledger is written in German, regardless of the conversation's language.
 - The model's `Why` is its own account of itself. Nothing checks it against what happened inside the model.
 - Empty reasons pile up; only you can fill them, and `/resume` shows only the recent ones.
 - Every fork gets an entry, and all entries weigh the same. A locale counts as much as a design decision.
-- One person has used it. Treat it as a working practice, not as a tested product.
+- So far only I have used it. The two ledgers behind my site and its design system hold 2,360 entries from August 2 to October 3.
 
 If you run it, tell me what happened in [Discussions](https://github.com/sacredvalentin/who-made-the-call/discussions). If it breaks one of its own rules, open an [issue](https://github.com/sacredvalentin/who-made-the-call/issues).
 
