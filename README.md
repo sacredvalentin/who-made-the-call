@@ -77,6 +77,8 @@ The ledger is written in German, regardless of the conversation's language.
 - Every fork gets an entry, and all entries weigh the same. A locale counts as much as a design decision.
 - One person has used it. Treat it as a working practice, not as a tested product.
 
+If you run it, tell me what happened in [Discussions](https://github.com/sacredvalentin/who-made-the-call/discussions). If it breaks one of its own rules, open an [issue](https://github.com/sacredvalentin/who-made-the-call/issues).
+
 ## History
 
 `CHANGELOG.md` lists the versions since June 2026, with the two rules that had to be repaired.
