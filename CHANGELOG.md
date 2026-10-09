@@ -5,6 +5,7 @@ The versions before October 2026 are reconstructed from dated copies of the comm
 ## 2026-10-09
 
 - In a claude.ai chat, the plugin's `/sum` hands both blocks over as a file to land later, `/resume` reads a ledger uploaded to the chat, and `/land` says it needs a project folder. Until then, the three commands assumed a project folder wherever they ran.
+- The commands pre-approve only the git commands `/sum` runs and writes to `decisions.md`. They had pre-approved any shell command and any file write.
 
 ## 2026-10-08
 

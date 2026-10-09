@@ -1,7 +1,7 @@
 ---
 name: land
 description: Land a chat /sum output (pasted or uploaded .md), DECISIONS → decisions.md, SUMMARY → a session note if a notes folder is named
-allowed-tools: Read, Edit, Write, Bash
+allowed-tools: Read, Edit(./decisions.md), Write(./decisions.md)
 disable-model-invocation: true
 ---
 This command writes into a project folder, so it runs in Claude Code or in

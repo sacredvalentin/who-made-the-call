@@ -1,7 +1,7 @@
 ---
 name: sum
 description: Appends this session's forks to the decision ledger in decisions.md, saves a session note if a notes folder is named, and commits the ledger if the project is a git repo with nothing else uncommitted. In a claude.ai chat, hands both blocks over as a file to land later
-allowed-tools: Read, Edit, Write, Bash
+allowed-tools: Read, Edit(./decisions.md), Write(./decisions.md), Bash(git rev-parse:*), Bash(git status:*), Bash(git add:*), Bash(git commit:*)
 disable-model-invocation: true
 ---
 In a claude.ai chat there is no project folder, and a file you write there
