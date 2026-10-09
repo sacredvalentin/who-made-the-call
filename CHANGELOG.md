@@ -2,6 +2,10 @@
 
 The versions before October 2026 are reconstructed from dated copies of the command files and session notes from those days.
 
+## 2026-10-09
+
+- In a claude.ai chat, the plugin's `/sum` hands both blocks over as a file to land later, `/resume` reads a ledger uploaded to the chat, and `/land` says it needs a project folder. Until then, the three commands assumed a project folder wherever they ran.
+
 ## 2026-10-08
 
 - The chat skill reads the ledger's language from the user's instructions, as `/sum` in Claude Code does. It had always written English.

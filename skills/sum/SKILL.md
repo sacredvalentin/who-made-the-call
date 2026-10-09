@@ -1,9 +1,17 @@
 ---
 name: sum
-description: Appends this session's forks to the decision ledger in decisions.md, saves a session note if a notes folder is named, and commits the ledger if the project is a git repo with nothing else uncommitted
+description: Appends this session's forks to the decision ledger in decisions.md, saves a session note if a notes folder is named, and commits the ledger if the project is a git repo with nothing else uncommitted. In a claude.ai chat, hands both blocks over as a file to land later
 allowed-tools: Read, Edit, Write, Bash
 disable-model-invocation: true
 ---
+In a claude.ai chat there is no project folder, and a file you write there
+stays in a sandbox the user does not see. There, produce the two blocks below
+but skip the landing steps. Number the entries plainly, 1., 2., 3., since no
+ledger is there to give the session number. Deliver both blocks as one .md
+file for the user to download, named `sum_<YYYY-MM-DD>_<short-topic>.md`, and
+tell them that `/land` in Claude Code appends it to `decisions.md`. In Claude
+Code, and in Cowork working in the user's folder, follow every step.
+
 Review this session and produce two blocks, in English regardless of the
 conversation language, unless the user's instructions name another language
 for the ledger. Include forks you resolved silently and never raised in

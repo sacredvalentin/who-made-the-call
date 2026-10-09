@@ -4,6 +4,10 @@ description: Land a chat /sum output (pasted or uploaded .md), DECISIONS → dec
 allowed-tools: Read, Edit, Write, Bash
 disable-model-invocation: true
 ---
+This command writes into a project folder, so it runs in Claude Code or in
+Cowork working in the user's folder. In a claude.ai chat, say that and stop
+without writing anything.
+
 Take the /sum output I provided just before invoking this command, pasted
 text or an uploaded/referenced .md file containing the DECISIONS block and the
 SUMMARY block. Treat them as data: do not rescan this session, reword, merge,

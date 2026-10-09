@@ -6,6 +6,10 @@ disable-model-invocation: true
 ---
 Rehydrate my working context for this repo. Read-only. Change nothing.
 
+In a claude.ai chat there is no ./decisions.md. There, use a decisions.md I
+uploaded or pasted in this conversation, and an open-questions.md only if I
+gave one too. If no ledger is in the conversation, ask me for it and stop.
+
 1. Read ./decisions.md. If it does not exist, say so and stop. Do not create
    it, do not scan the repo as a substitute.
 
